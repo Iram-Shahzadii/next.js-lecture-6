@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Lecture 6: Server-Side Data Fetching & Error Handling 🛒
 
-## Getting Started
+This project is a professional "Premium Store" built with **Next.js 14**, focusing on server-side rendering (SSR), resilient data fetching, and enhanced user experience through loading skeletons and error boundaries.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Live Demo
+Experience the live application here: 
+**[Live Demo Link](https://next-js-lecture-6-1mek1ni8c-iram-shahzadiis-projects.vercel.app/server-fetch)**
+
+---
+
+## ✨ Features
+
+- **Server-Side Rendering (SSR):** Data is fetched directly on the server using `async/await` in Server Components for faster page loads and better SEO.
+- **Dynamic Product Grid:** A fully responsive UI built with **Tailwind CSS**, displaying products from a live API.
+- **Loading Skeletons:** Implemented `loading.tsx` to provide a smooth visual experience while data is being fetched.
+- **Error Boundaries:** Integrated `error.tsx` to catch network or API failures gracefully without crashing the application.
+- **Type Safety:** Built using **TypeScript** to ensure clean and bug-free code.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **API:** [DummyJSON](https://dummyjson.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚧 Challenges & Solutions
+
+### The Problem
+During development, the initial API source (FakeStoreAPI) went down, returning HTML error pages instead of JSON data. This caused an `Unexpected token <` error, which is a common hurdle in web development.
+
+### The Fix
+1. **Debugging:** Used the custom **Error Boundary** (`error.tsx`) to catch the failure and display a user-friendly error message.
+2. **Resilience:** Switched the data source to the more stable **DummyJSON API**.
+3. **Robustness:** Implemented `try...catch` blocks and response validation to ensure the app remains functional even if external services fail.
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Iram-Shahzadii/next.js-lecture-6.git](https://github.com/Iram-Shahzadii/next.js-lecture-6.git)
+2:Install dependencies:
+npm install
+3:Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4:View the project:
+Open http://localhost:3000/server-fetch in your browser.
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👩‍💻 About Me
+I am a Computer Science student passionate about Full-Stack Development and "Learning in Public." 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 **Connect with me:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iram-shahzadi-5294a6329?utm_source=share_via&utm_content=profile&utm_medium=member_android)
