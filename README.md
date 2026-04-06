@@ -57,4 +57,5 @@ Open http://localhost:3000/server-fetch in your browser.
 ## 👩‍💻 About Me
 I am a Computer Science student passionate about Full-Stack Development and "Learning in Public." 
 
-🚀 **Connect with me:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iram-shahzadi-5294a6329?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+🚀 **Connect with me:**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iram-shahzadi-5294a6329?utm_source=share_via&utm_content=profile&utm_medium=member_android)
